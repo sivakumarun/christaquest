@@ -237,26 +237,26 @@ const startDrawingAnimation = (finalPartner) => {
           )}
         </div>
 
-        <div className="sidebar">
-          <div className="current-pairs">
-            <h3>Buddies Found:</h3>
-            <div className="assignment-list-container">
-              {isLoading ? (
-                <p>Loading...</p>
-              ) : (
-                <ul>
-                  {Object.entries(assignedPairs).map(([selector, partner]) => (
-                    <li key={selector}>
-                      <strong>{selector}</strong>
-                      <span> ➡️ </span>
-                      <strong>{partner}</strong>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          </div>
-        </div>
+{/*         <div className="sidebar"> */}
+{/*           <div className="current-pairs"> */}
+{/*             <h3>Buddies Found:</h3> */}
+{/*             <div className="assignment-list-container"> */}
+{/*               {isLoading ? ( */}
+{/*                 <p>Loading...</p> */}
+{/*               ) : ( */}
+{/*                 <ul> */}
+{/*                   {Object.entries(assignedPairs).map(([selector, partner]) => ( */}
+{/*                     <li key={selector}> */}
+{/*                       <strong>{selector}</strong> */}
+{/*                       <span> ➡️ </span> */}
+{/*                       <strong>{partner}</strong> */}
+{/*                     </li> */}
+{/*                   ))} */}
+{/*                 </ul> */}
+{/*               )} */}
+{/*             </div> */}
+{/*           </div> */}
+{/*         </div> */}
       </div>
     </div>
   );
